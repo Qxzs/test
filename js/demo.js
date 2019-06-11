@@ -7,6 +7,7 @@ window.onload = function(){
 	for ( var i =0;i < len;i ++) {
 		aclick[i].index=i;
 		aclick[i].onmouseover = function(){
+			
 		 for( var j =0 ;j<len1; j++){
 			 aUl[j].index=j;
 			 aUl[j].style.display = "none";

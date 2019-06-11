@@ -16,7 +16,7 @@ body{
 
 #wrap{
 	width: 1200px;
-	height: 1680px;
+	height: 1180px;
 	margin: 0 auto;
 }
 .perShow{
@@ -35,7 +35,7 @@ body{
 	margin-top: -15px;
 	margin-bottom: 30px;
 }
-.perShow .col-md-6 .col-md-3 img{
+#wrap .perShow .col-md-6 .col-md-3 img{
 	width: 75px;
 	height: 75px;
 }
@@ -227,17 +227,15 @@ body{
  	border-radius: 50%;
  	margin-right: 12px;
  }
-.footer{
+#footer{
 	width: 1200px;
-	height: 200px;
+	height: 100px;
 	border: 1px solid black;
 	text-align: center;	
+    font-size: 24px;
+	line-height: 100px;
+}
 
-}
-.footer a{
-	display: inline-block;
-	margin: 40px;
-}
 .reTop{
 	width: 50px;
 	height: 50px;
